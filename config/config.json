@@ -1,0 +1,24 @@
+  {
+    "development": {
+      "username": "microservice_user",
+      "password": "Rose",
+      "database": "product_service_db",
+      "host": "127.0.0.1",
+      "dialect": "postgres"
+    },
+    "test": {
+      "username": "microservice_user",
+      "password": "Rose",
+      "database": "product_service_db",
+      "host": "127.0.0.1",
+      "dialect": "postgres"
+    },
+    "production": {
+      "username": "microservice_user",
+      "password": "Rose",
+      "database": "product_service_db",
+      "host": "127.0.0.1",
+      "dialect": "postgres"
+    }
+  }
+  
