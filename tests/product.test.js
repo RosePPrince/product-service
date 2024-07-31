@@ -22,7 +22,7 @@ afterAll(async () => {
 
 describe('Product API', () => {
   it('should create a new product', async () => {
-    axios.get.mockResolvedValue({ data: { id: 1, name: 'John Doe' } });
+    axios.get.mockResolvedValue({ data: { id: 1, name: 'Rose Prince' } });
 
     const res = await request(app)
       .post('/api/products')
